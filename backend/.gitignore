@@ -1,0 +1,87 @@
+# .gitignore para um projeto Django
+
+# Ambientes virtuais
+venv/
+.env*
+!.env.example
+!.envScriptsactivate/
+
+# Diretório de configurações do PyCharm
+.idea/
+
+# Diretório de configurações do Visual Studio Code
+.vscode/
+
+# Compiled python files
+*.pyc
+__pycache__/
+
+# Diretório de migrações
+*/migrations/
+*/__pycache__/
+
+# Arquivos de log e dados temporários
+*.log
+tmp/
+*.swp
+
+# Diretórios do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de banco de dados
+*.sqlite3
+
+# Arquivos de cache
+*.cache
+.cache/
+
+# Configurações do servidor
+local_settings.py
+settings.pyc
+
+# Django media
+media/
+
+# Django static files
+staticfiles/
+
+# coverage result
+htmlcov/
+
+# celery beat schedule file
+celerybeat-schedule
+
+# mypy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Test coverage
+.coverage
+*.cover
+
+# MySQL backup files
+*.sql
+
+# Backup files
+*.bak
+*.tmp
+
+# Outros arquivos de configuração
+*.yaml
+*.yml
+
+# JetBrains Rider
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS folder attributes
+.DS_Store
+
+# Windows image file caches
+Thumbs.db
