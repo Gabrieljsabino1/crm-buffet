@@ -71,7 +71,6 @@ celerybeat-schedule
 
 # Outros arquivos de configuração
 *.yaml
-*.yml
 
 # JetBrains Rider
 .idea/
